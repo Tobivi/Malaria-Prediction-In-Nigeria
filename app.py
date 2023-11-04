@@ -27,7 +27,7 @@ with st.sidebar:
         st.write("Laboratory Equipments: Are they adequate or not Adequate?")
         st.write("Location: Do you reside in the Rural or Urban area?")
         st.write("Laboratory Equipments: Are they adequate or not Adequate?")
-        st.write("Lab Diagnosis: Complicated or Uncomlicated?")
+        st.write("Lab Diagnosis: Complicated or Uncomlicated?. This works on the Mal Parasite Percentage")
         st.write("While the rest of the inputs such as Malaria Parasite Density fever,Complaints of the individual,Rate of malaria infection,age of the individual are all number inputs due to the fact they have a whole lot of categorical unique values in their columns hence they were encoded to number input")
         st.write("Availability of electricity: value of 1(stating yes) while value of 0(stating No)?")
 
@@ -90,7 +90,7 @@ if submit:
 
     if prediction == 0:
         st.write('Congratulations,', Name, 'you do not have malaria.')
-        st.write("Hence the Lab Diagnosis states that the malaria you have is Uncomplicated stating its less than 75%")
+        st.write("Hence the Lab Diagnosis states that the malaria you have is Uncomplicated stating its less than 70%")
 
         # Plot a bar chart to visualize the prediction
         fig, ax = plt.subplots()
@@ -101,7 +101,7 @@ if submit:
 
     else:
         st.write(Name, "we are really sorry to say, but it seems like you have malaria.")
-        st.write("Hence the Lab Diagnosis states that the malaria you have is Complicated stating its greater than 75%")
+        st.write("Hence the Lab Diagnosis states that the malaria you have is Complicated stating its greater than 70%")
 
         # Plot a bar chart to visualize the prediction
         fig, ax = plt.subplots()
