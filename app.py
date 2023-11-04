@@ -27,7 +27,7 @@ with st.sidebar:
         st.write("Laboratory Equipments: Are they adequate or not Adequate?")
         st.write("Location: Do you reside in the Rural or Urban area?")
         st.write("Laboratory Equipments: Are they adequate or not Adequate?")
-        st.write("Lab Diagnosis: Complicated or Uncomlicated?. This works on the Mal Parasite Percentage")
+        st.write("Lab Diagnosis: Complicated or Uncomlicated?. This works on the Malaria Parasite Diagnostic Parasite Percentage")
         st.write("While the rest of the inputs such as Malaria Parasite Density fever,Complaints of the individual,Rate of malaria infection,age of the individual are all number inputs due to the fact they have a whole lot of categorical unique values in their columns hence they were encoded to number input")
         st.write("Availability of electricity: value of 1(stating yes) while value of 0(stating No)?")
 
